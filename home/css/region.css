@@ -1,0 +1,29 @@
+.region {
+  display: flex;
+  background-color: black;
+  width: 1000px;
+  height: 400px;
+  flex-direction: row;
+
+  align-items: flex-start;
+  justify-content: center;
+
+  justify-content: space-around;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.region button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  width: 200px;
+  height: 100px;
+  border-radius: 10px;
+  border: none;
+  background-color: blue;
+  color: white;
+  font-size: 40px;
+  background: linear-gradient(to bottom, blue, blue, rgb(39, 39, 39));
+}

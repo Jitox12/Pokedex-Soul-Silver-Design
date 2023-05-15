@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: pokemon;
+}
+
+@font-face {
+  font-family: pokemon;
+  src: url('../font/pokemon-ds-font.ttf');
+}
+
+body {
+  flex-direction: column;
+  display: flex;
+  height: 100vh;
+}

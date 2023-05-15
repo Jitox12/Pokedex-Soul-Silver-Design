@@ -1,0 +1,9 @@
+.sub-circle {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  border-radius: 100%;
+  border: 40px gray solid;
+  align-items: center;
+  justify-content: center;
+}

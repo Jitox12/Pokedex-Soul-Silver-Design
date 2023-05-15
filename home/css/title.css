@@ -1,0 +1,15 @@
+.title {
+  font-size: 100px;
+  color: yellow;
+  display: flex;
+  background-color: black;
+  width: 800px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-decoration: underline;
+  background: linear-gradient(to bottom, black, black, rgb(39, 39, 39));
+}
