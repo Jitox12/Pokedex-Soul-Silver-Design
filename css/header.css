@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: pokemon;
+  color: white;
+  -webkit-text-stroke: #737373 .3px;
+}
+
+@font-face {
+  font-family: pokemon;
+  src: url("../font/pokemon-ds-font.ttf");
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background: url('../img/back.png') ;
+  background-repeat: repeat;
+
+}
+
+.header {
+  color: white;
+  display: flex;
+  background: linear-gradient(to right,black,red, red ,red, black);
+  box-shadow: 0px 10px 8px #292929;
+  border-bottom: black 2px solid;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-items: start;
+  margin-bottom: 100px;
+
+}
+
+.header h1 {
+  margin: 10px;
+  font-size: 70px;
+}

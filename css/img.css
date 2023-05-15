@@ -1,0 +1,11 @@
+.img{
+    display: flex;
+    align-items: center;
+
+}
+
+.img .jolteon{
+    width: 400px;
+    height: auto;
+    
+}
